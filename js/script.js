@@ -32,10 +32,10 @@ function closeSpecials() {
 
  // doesn't work yet
  // click anywhere on body to make message_area go away
-  // $('body').on('click', function() {
-  //   e.stopPropagation();
-  //   closeSpecials();
-  // });
+  $('body').on('click', message_area, function(e) {
+    e.stopPropagation(e);
+    closeSpecials();
+  });
 
 
 
