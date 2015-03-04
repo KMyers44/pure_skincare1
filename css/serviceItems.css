@@ -232,14 +232,19 @@ h1 {
 
 h3 {
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
   letter-spacing: 2px;
+  color: #5887AC;
 }
 
-p {
-  text-align: left;
+span.price {
+  float: right;
+  margin-right: 150px;
 }
 
+.tints p {
+  padding: 10px 0 20px;
+}
 
 /* footer */
 
