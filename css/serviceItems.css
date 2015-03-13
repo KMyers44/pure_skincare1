@@ -177,7 +177,6 @@ img {
 .container {
   text-align: center;
   padding-top: 75px;
-  height: 100vh;
 }
 
 #sideNavbar {
@@ -211,40 +210,59 @@ img {
   text-decoration: none;
 }
 
+.col-md-9 {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+}
+
 .facials,
 .tints,
 .waxing,
 .acutonics {
   margin-top: -30px;
+  text-align: left;
+  color: #587058;
+  width: 75%;
+  margin: 0 auto;
 }
 
-.facials hr,
-.tints hr,
-.waxing hr,
-.acutonics hr {
-  border-top: 1px solid #B8B3B3;
-}
-
-h1 {
+.facials h1,
+.tints h1,
+.waxing h1,
+.acutonics h1 {
   font-size: 34px;
   letter-spacing: 3px;
+  padding-bottom: 20px;
+  margin-top: -40px;
+  text-align: center;
+  border-bottom: 1px dotted;
 }
 
+.col-md-9 li,
 h3 {
   font-size: 1.5em;
-  text-align: center;
   letter-spacing: 2px;
-  color: #5887AC;
+  padding: 15px 0;
 }
 
 span.price {
   float: right;
-  margin-right: 150px;
+  padding-right: 15px;
 }
 
-.tints p {
+.facials p,
+.tints p,
+.waxing p,
+.acutonics p {
   padding: 10px 0 20px;
+  text-align: justify;
 }
+
+
+
+
 
 /* footer */
 
