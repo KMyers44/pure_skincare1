@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  margin: 0 60px;
+  /*margin: 0 60px;*/
   padding-top: 35px;
 }
 
@@ -25,7 +25,7 @@ body {
 
 #header {
   display: inline-block;
-  width: 100%
+  width: 100%;
 }
 
 #pureSkincare {
@@ -193,10 +193,13 @@ img {
 
 /* main page */
 
+#mainPage p {
+  text-align: justify;
+}
+
 #mainPage img {
   vertical-align: middle;
-  width: autp;
-  width: 375px;
+  width: 100%;
   height: auto;
   border-radius: 25px;
 }
@@ -214,6 +217,32 @@ img {
 }
 
 
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 95%;
+  }
+
+  #mainNav li {
+    padding: 0 12px;
+  }
+
+  .col-md-5 h2 {
+    text-align: center;
+  }
+
+  #mainPage img {
+    width: 40%;
+    display: block;
+    margin: 25px auto 0;
+  }
+}
 
 
 

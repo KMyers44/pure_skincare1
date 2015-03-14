@@ -215,6 +215,7 @@ img {
   padding: 50px;
   border-radius: 5px;
   margin-bottom: 75px;
+  width: 75%;
 }
 
 .facials,
@@ -223,7 +224,7 @@ img {
 .acutonics {
   margin-top: -30px;
   text-align: left;
-  color: #587058;
+  color: rgb(102, 101, 101);
   width: 75%;
   margin: 0 auto;
 }
@@ -236,7 +237,6 @@ img {
   letter-spacing: 3px;
   padding-bottom: 20px;
   margin-top: -40px;
-  text-align: center;
   border-bottom: 1px dotted;
 }
 
@@ -272,6 +272,24 @@ span.price {
 }
 
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .main .row {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .col-md-3 {
+    display: none;
+  }
+
+  .col-md-9 {
+    width: 100%;
+  }
+
+  #mainNav li {
+    padding: 0 12px;
+  }
+}
 
 
 
