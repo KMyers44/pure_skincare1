@@ -15,6 +15,10 @@ $(document).ready(function() {
     closeSpecials();
   });
 
+  /*$(#mainNav).on('click', function() {
+    // when icon clicked, show #mainNav as display block
+  })
+*/
 
 
 function showSpecials() {
@@ -29,6 +33,12 @@ function closeSpecials() {
   $('.main').fadeIn('slow');
 }
 
+
+/*function iconMenu() {
+  $('#mainNav').css("display": )
+    //make mainNav display block
+}
+*/
 
  // doesn't work yet
  // click anywhere on body to make message_area go away

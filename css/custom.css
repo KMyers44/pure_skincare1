@@ -216,6 +216,30 @@ img {
   background-color: #5887AC;
 }
 
+/* NEW STUFF */
+#headerImage{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #mainNav {
+    display: none;
+  }
+
+  #headerImage {
+    width: 50px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: -35px;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
+/* NEW STUFF */
 
 
 @media (min-width: 992px) {
