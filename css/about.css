@@ -225,6 +225,18 @@ h2 {
 }
 
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .message_area {
+    width: 68%;
+    height: 440px;
+  }
+
+  .message_area img {
+    height: 150px;
+  }
+}
+
+
 
 
 
