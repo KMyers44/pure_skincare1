@@ -190,6 +190,12 @@ img {
   margin-top: 35px;
 }
 
+.col-md-8 {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
 h2 {
   font-size: 30px;
   margin: 30px;
@@ -197,6 +203,10 @@ h2 {
   text-align: center;
 }
 
+p {
+  margin: 25px 30px 10px 0;
+  text-align: justify;
+}
 
 
 
