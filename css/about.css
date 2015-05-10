@@ -183,17 +183,17 @@ img {
   margin-top: 30px;
 }
 
-.col-md-4 img {
-  vertical-align: middle;
-  size: height;
-  height: 410px;
-  margin-top: 35px;
+.container .row {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
 }
 
-.col-md-8 {
-  background-color: white;
-  padding: 30px;
-  border-radius: 8px;
+.col-md-4 img {
+  vertical-align: middle;
+  margin: 35px 10px;
+  width: 90%;
+  height: auto;
 }
 
 h2 {
@@ -203,8 +203,8 @@ h2 {
   text-align: center;
 }
 
-p {
-  margin: 25px 30px 10px 0;
+.col-md-8 p {
+  margin: 30px 30px 10px 0;
   text-align: justify;
 }
 
