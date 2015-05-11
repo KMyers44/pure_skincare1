@@ -1,0 +1,47 @@
+/* message area */
+
+.message_area {
+  height: 455px;
+  width: 50%;
+  background: rgb(247, 246, 246);
+  margin: 65px auto;
+  opacity: .95;
+  display: none;
+  border-radius: 8px;
+  color: rgb(102, 101, 101);
+}
+
+.icon {
+  float: right;
+  padding:5px 8px 0 0;
+  display: inline-block;
+}
+
+.message_area h2 {
+  text-align: center;
+  padding-top: 35px;
+  font-size: 2.9em;
+}
+
+.message_area p {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.value {
+  font-size: 18px;
+}
+
+.message_area_img {
+  opacity: 1;
+  text-align: center;
+  padding-top: 30px;
+}
+
+img {
+  height: 175px;
+  width: auto;
+  border-radius: 9px;
+  margin-top: 20px;
+}

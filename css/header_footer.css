@@ -1,3 +1,8 @@
+.upperPage,
+.footer {
+  background-color: #5887AC;
+}
+
 body {
   margin: -20px 0 0 0;
   font-family: 'Maven Pro', sans-serif;
@@ -7,25 +12,15 @@ body {
   background-color: rgb(240, 240, 237);
 }
 
-.container {
-  /*margin: 0 60px;*/
-  padding-top: 35px;
-}
-
-.upperPage {
-  background:
-    linear-gradient(
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.1)
-      ),
-    url('../images/misty-mountain.jpeg');
-    background-size: cover;
-    height: 100vh;
+.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
 #header {
   display: inline-block;
   width: 100%;
+  padding: 30px;
 }
 
 #pureSkincare {
@@ -125,112 +120,8 @@ nav ul li:hover > ul {
 }
 
 
-.slogan {
-  margin: 50px;
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 2.4em;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#beauty {
-  font-size: 2.1em;
-  font-family: 'Merriweather', serif;
-}
-
-
-/* main page */
-
-#mainPage p {
-  text-align: justify;
-}
-
-#mainPage img {
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
-}
-
-.row {
-  padding: 50px 0 85px 0;
-}
-
-
 /* footer */
-
 .footer .row {
   padding: 60px 0;
   background-color: #5887AC;
 }
-
-/* NEW STUFF */
-#headerImage{
-  display: none;
-}
-
-@media (max-width: 768px) {
-  #mainNav {
-    display: none;
-  }
-
-  #headerImage {
-    width: 50px;
-    height: 43px;
-    display: block;
-    position: absolute;
-    top: -30px;
-    right: -35px;
-  }
-
-  .container {
-    width: 80%;
-  }
-}
-/* NEW STUFF */
-
-
-@media (min-width: 992px) {
-  .container {
-    width: 90%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .container {
-    width: 95%;
-  }
-
-  #mainNav li {
-    padding: 0 12px;
-  }
-
-  .col-md-5 h2 {
-    text-align: center;
-  }
-
-  #mainPage img {
-    width: 40%;
-    display: block;
-    margin: 25px auto 0;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .message_area {
-    width: 68%;
-    height: 440px;
-  }
-
-  .message_area img {
-    height: 150px;
-  }
-}
-
-
-
-
-
