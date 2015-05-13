@@ -23,6 +23,12 @@ body {
   padding: 30px;
 }
 
+.upperPage {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
 #pureSkincare {
   color: white;
   display: inline-block;

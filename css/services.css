@@ -1,60 +1,8 @@
 
-
-/* message area */
-
-.message_area {
-  height: 455px;
-  width: 50%;
-  background: rgb(247, 246, 246);
-  margin: 65px auto;
-  opacity: .95;
-  display: none;
-  border-radius: 8px;
-  color: rgb(102, 101, 101);
-}
-
-.icon {
-  float: right;
-  padding:5px 8px 0 0;
-  display: inline-block;
-}
-
-.message_area h2 {
-  text-align: center;
-  padding-top: 35px;
-  font-size: 2.9em;
-}
-
-.message_area p {
-  margin: 0 0 10px;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-.value {
-  font-size: 18px;
-}
-
-.message_area_img {
-  opacity: 1;
-  text-align: center;
-  padding-top: 30px;
-}
-
-img {
-  height: 175px;
-  width: auto;
-  border-radius: 9px;
-  margin-top: 20px;
-}
-
-
-
 /* main area */
 
 .main {
   background: rgb(240, 240, 240);
-  height: 100vh;
 }
 
 .container {
@@ -74,7 +22,7 @@ img {
   font-size: 2em;
   padding-left: 0;
   color: rgb(88, 135, 172);
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 #sideServicesList hr {
@@ -87,7 +35,6 @@ img {
 #sideServicesList li {
   padding: 6px;
   font-size: 1.2em;
-  letter-spacing: 2px;
 }
 
 #sideServicesList li a:hover {
@@ -99,7 +46,7 @@ img {
   cursor: pointer;
 }
 
-.services_quote {
+/*.services_quote {
   background: url('../images/girl-flowers.jpg');
   background-size: cover;
   padding: 65px;
@@ -114,16 +61,16 @@ img {
   color: rgb(8, 7, 7);
   letter-spacing: 4px;
   font-family: 'Noto Sans', sans-serif;
-}
+}*/
 
-.facialsInfo,
+/*.facialsInfo,
 .tintsInfo,
 .waxInfo,
 .acutonicsInfo {
   display: none;
   text-align: left;
 }
-
+*/
 
 
 @media (max-width: 991px) {

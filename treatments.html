@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wax - Pure Skincare</title>
-
+    <title>Services - Pure Skincare</title>
       <link rel="stylesheet" type="text/css" href="css/header_footer.css">
       <link rel="stylesheet" type="text/css" href="css/message_area.css">
-      <link rel="stylesheet" type="text/css" href="css/serviceItems.css">
+      <link rel="stylesheet" type="text/css" href="css/treatments.css">
 
-      <!-- link for font-awesome -->
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-      <!-- link for Google font 'Maven Pro' and 'Muli' -->
-      <link href='http://fonts.googleapis.com/css?family=Muli|Maven+Pro' rel='stylesheet' type='text/css'>
+      <!-- link for Google font -->
+      <link href='http://fonts.googleapis.com/css?family=Muli|Maven+Pro|Noto+Sans'rel='stylesheet' type='text/css'>
 
       <!-- link for bootstrap -->
       <!-- Latest compiled and minified CSS -->
@@ -31,7 +27,6 @@
   <body>
     <div class="wrapper">
 
-
       <!-- header/navigation -->
       <div class="upperPage">
         <div class="container-fluid">
@@ -48,12 +43,12 @@
                   <nav id="mainNav">
                     <ul>
                       <li class="home"><a href="index.html">Home</a></li>
-                      <li class="dropdown"><a href="services.html"><span class="dropdown-services">Treatments</span></a>
+                      <li class="dropdown"><a href="treatments.html"><span class="dropdown-services">Treatments</span></a>
                         <ul id="servicesList">
-                          <li><a href="facials.html">Facials</a></li>
-                          <li><a href="tints.html">Tints</a></li>
-                          <li><a href="wax.html">Wax</a></li>
-                          <li><a href="acutonics.html">Acutonics</a></li>
+                          <li><a href="#facials">Facials</a></li>
+                          <li><a href="#tints">Tints</a></li>
+                          <li><a href="#waxing">Wax</a></li>
+                          <li><a href="#acutonics">Acutonics</a></li>
                         </ul>
                       </li>
                       <li class="specials"><a href="#">Specials</a></li>
@@ -83,50 +78,69 @@
 
 
       <div class="main">
-        <div class="container">
 
-        <!-- side nav on services page -->
+        <div class="container containerFixed">
           <div class="row">
-
             <div class="col-md-3">
               <nav id="sideNavbar">
-                <ul id="sideServicesList">
-                  <p class="services">Treatments</p>
-                  <li><a href="facials.html">Facials</a></li>
-                  <li><a href="tints.html">Tints</a></li>
-                  <li><a href="wax.html">Wax</a></li>
-                  <li><a href="acutonics.html">Acutonics</a></li>
+                <ul id="sideTreatmentsList">
+                  <p class="treatments">Treatments</p>
+                  <li><a href="#facials">Facials</a></li>
+                  <li><a href="#tints">Tints</a></li>
+                  <li><a href="#waxing">Wax</a></li>
+                  <li><a href="#acutonics">Acutonics</a></li>
                 </ul>
               </nav>
             </div>
-
-            <div class="col-md-7">
-              <div class="waxing">
-                <h1>Wax</h1>
-
-                <p>Professional removal of body and facial hair using warm wax with calming properties. Waxing is contraindicated for use with retinoids and accutane.</p>
-
-                <ul>
-                  <li>Brow Wax <span class="price">$15</span></li>
-
-                  <li>Lip Wax <span class="price">$10</span></li>
-
-                  <li>Bikini Wax <span class="price">$20</span></li>
-
-                  <li>Full Leg Wax <span class="price">$45</span></li>
-
-                  <li>Half Leg Wax <span class="price">$25</span></li>
-
-                  <li>Underarm Wax <span class="price">$15</span></li>
-                </ul>
-
-              </div>
-            </div>
-
+            <div class="col-md-8"></div>
           </div>
         </div>
-      </div>
 
+        <div class="containerScroll">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-7">
+              <div id="facials">
+                <h1>Facials</h1>
+                <p>An organic Facial customized to meet your skincare needs. The purest ingredients are used to address signs of aging, dullness, uneven skin tone, sun damage, and acne.  Your skin will feel balanced and refreshed.</p>
+                <ul>
+                  <li>Full Organic Facial <span class="price">$55</span></li>
+                  <li>Mini Organic Facial <span class="price">$30</span></li>
+                </ul>
+              </div>
+
+              <div id="tints">
+                <h1>Tints</h1>
+                <p>No need for makeup! Plant based dye is used to naturally enhance your brows or eyelashes.</p>
+                <ul>
+                  <li>Brow Tint <span class="price">$10</span></li>
+                  <li>Lash Tint <span class="price">$10</span></li>
+                </ul>
+              </div>
+
+              <div id="waxing" id="wax">
+                <h1>Wax</h1>
+                <p>Professional removal of body and facial hair using warm wax with calming properties. Waxing is contraindicated for use with retinoids and accutane.</p>
+                <ul>
+                  <li>Brow Wax <span class="price">$15</span></li>
+                  <li>Lip Wax <span class="price">$10</span></li>
+                  <li>Bikini Wax <span class="price">$20</span></li>
+                  <li>Full Leg Wax <span class="price">$45</span></li>
+                  <li>Half Leg Wax <span class="price">$25</span></li>
+                  <li>Underarm Wax <span class="price">$15</span></li>
+                </ul>
+              </div>
+
+              <div id="acutonics">
+                <h1>Acutonics</h1>
+                <h3>Acutonics Balancing Treatment <span class="price">$15</span></h3>
+                <p>Acutonics is an energy healing therapy using tuning forks to connect the health of the mind body and spirit. The tuning forks are applied to acupuncture points, trigger points, chakras and points of pain. The sound waves of the forks travel deep within the body to open blocked energy and reach places that are not easily accessible. The bodies physical and subtle energy field is stimulated and balanced to promote healing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
       <div class="footer">
         <div class="container-fluid">
@@ -139,7 +153,7 @@
       </div>
 
 
-
+    </div>
 
     <script type="text/javascript" src="js/script.js"></script>
   </body>

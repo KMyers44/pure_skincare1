@@ -1,0 +1,133 @@
+
+.main {
+  background: rgb(240, 240, 240);
+}
+
+.container {
+  padding-top: 75px;
+}
+
+#sideNavbar {
+  text-align: left;
+  padding-left: 10px;
+  position: fixed;
+  margin: 75px 0 0 -18px;
+}
+
+.treatments {
+  font-size: 1.8em;
+  padding-left: 0;
+  color: rgb(88, 135, 172);
+  letter-spacing: 3px;
+}
+
+#sideTreatmentsList li {
+  padding: 6px;
+  font-size: 1.2em;
+}
+
+#sideTreatmentsList li a:hover {
+  color: #23527c;
+  margin-left: 5px;
+  transition: .5s ease;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.col-md-7 {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+  width: 69%;
+  margin-top: 60px;
+}
+
+#facials,
+#tints,
+#waxing,
+#acutonics {
+  text-align: left;
+  color: rgb(102, 101, 101);
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+#facials {
+  padding-top: 0;
+}
+
+#acutonics {
+  padding-bottom: 0;
+}
+
+#facials h1,
+#tints h1,
+#waxing h1,
+#acutonics h1 {
+  /*font-size: 34px;
+  letter-spacing: 5px;
+  padding: 40px 0 5px;
+  margin-top: -40px;
+  border-bottom: 1px dotted;*/
+  font-size: 34px;
+  letter-spacing: 5px;
+  padding: 10px 0;
+  margin-top: 0px;
+  border-bottom: 1px dotted;
+  border-top: 1px dotted;
+  text-align: center;
+}
+
+.col-md-7 li,
+h3 {
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  padding: 5px 0;
+}
+
+span.price {
+  float: right;
+  padding-right: 15px;
+}
+
+#facials p,
+#tints p,
+#waxing p,
+#acutonics p {
+  padding: 10px 0 20px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
