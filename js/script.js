@@ -15,10 +15,6 @@ $(document).ready(function() {
     closeSpecials();
   });
 
-  /*$(#mainNav).on('click', function() {
-    // when icon clicked, show #mainNav as display block
-  })
-*/
 
 
 function showSpecials() {
@@ -34,18 +30,19 @@ function closeSpecials() {
 }
 
 
-/*function iconMenu() {
-  $('#mainNav').css("display": )
-    //make mainNav display block
-}
-*/
 
- // doesn't work yet
- // click anywhere on body to make message_area go away
-  // $('body').on('click', message_area, function(e) {
-  //   e.stopPropagation(e);
-  //   closeSpecials();
-  // });
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 900, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
 
 
 
