@@ -3,6 +3,11 @@
   background: rgb(240, 240, 240);
 }
 
+.upperPage {
+  position: fixed;
+  z-index: 5;
+}
+
 .container {
   padding-top: 75px;
 }
