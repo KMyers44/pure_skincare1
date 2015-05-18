@@ -100,7 +100,21 @@ span.price {
   text-align: justify;
 }
 
+figure {
+  margin-top: 65px;
+}
 
+figure img {
+  width: 40%;
+  height: auto;
+  margin: 25px auto 5px;
+  display: block;
+}
+
+figure figcaption {
+  text-align: center;
+
+}
 
 
 
