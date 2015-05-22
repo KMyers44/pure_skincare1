@@ -105,7 +105,7 @@ figure {
 }
 
 figure img {
-  width: 40%;
+  width: 50%;
   height: auto;
   margin: 25px auto 5px;
   display: block;
@@ -117,6 +117,47 @@ figure figcaption {
 }
 
 
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-3 {
+    display: none;
+  }
+
+  .col-md-7 {
+    margin: 0 auto;
+  }
+
+  .col-md-7 h3 {
+    font-size: 1.4em;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .col-md-3 {
+    display: none;
+  }
+
+  .message_area {
+    width: 68%;
+    height: 440px;
+  }
+
+  .message_area img {
+    height: 150px;
+  }
+
+  .col-md-7 ul {
+    margin: 0 -25px;
+  }
+
+  .col-md-7 li {
+    font-size: 1.1em;
+  }
+
+
+}
 
 
 

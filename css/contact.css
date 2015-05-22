@@ -1,20 +1,10 @@
 
 /* main area */
 
-.main {
-  /*background:
-    linear-gradient(
-        rgba(0, 0, 0, 0.1),
-        rgba(0, 0, 0, 0.3)
-      ),
-    url('../images/clouds.jpeg');
-  background-size: cover;*/
-}
-
 .contact {
-  margin: 100px auto;
+  margin: 75px auto;
   text-align: center;
-  width: 60%;
+  width: 75%;
   padding: 30px 0px;
   background: rgba(255, 253, 252, .95);
   border-radius: 5px;
@@ -56,23 +46,31 @@
 }
 
 
-
-
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .contact {
-    width: 65%;
+    width: 85%;
   }
 }
 
-
 @media (min-width: 320px) and (max-width: 767px) {
-  .message_area {
-    width: 68%;
-    height: 440px;
+
+  .contact {
+    width: 80%;
+    margin: 50px auto;
   }
 
-  .message_area img {
-    height: 150px;
+  .contact h2 {
+    font-size: 2.6em;
+  }
+
+  .contact p {
+    font-size: 1.1em;
+    margin: 20px;
+  }
+
+  .contact img {
+    height: 275px;
+    width: auto;
   }
 }
 

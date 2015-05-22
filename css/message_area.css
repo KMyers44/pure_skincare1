@@ -2,7 +2,7 @@
 
 .message_area {
   height: 455px;
-  width: 50%;
+  width: 55%;
   background: rgb(247, 246, 246);
   margin: 65px auto;
   opacity: .95;
@@ -45,3 +45,52 @@ img {
   border-radius: 9px;
   margin-top: 20px;
 }
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .message_area {
+    width: 65%;
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .message_area {
+    width: 75%;
+    height: 440px;
+  }
+
+  .message_area img {
+    height: 120px;
+  }
+
+  .message_area h2 {
+    font-size: 2.1em;
+  }
+
+  .message_area p {
+    font-size: 1.2em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
