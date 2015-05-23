@@ -15,6 +15,8 @@
   background: white;
   border-radius: 8px;
   padding: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .col-md-4 img {
@@ -29,6 +31,10 @@ h2 {
   margin: 30px;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.col-md-8 {
+  color: rgb(86, 84, 84);
 }
 
 .col-md-8 p {
