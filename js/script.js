@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var message_area = $('.message_area');
+  var messageArea = $('.message-area');
   var icon         = $('.icon');
 
 
@@ -18,13 +18,14 @@ $(document).ready(function() {
 
 
 function showSpecials() {
-  message_area.fadeIn('slow');
+  messageArea.fadeIn('slow');
+  // css .upperPage --> position != fixed
   $('.slogan').hide();
   $('.main').hide();
 }
 
 function closeSpecials() {
-  message_area.fadeOut('slow');
+  messageArea.fadeOut('slow');
   $('.slogan').fadeIn('slow');
   $('.main').fadeIn('slow');
 }

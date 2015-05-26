@@ -1,4 +1,4 @@
-.upperPage,
+.upper-page,
 .footer {
   background-color: #5887AC;
 }
@@ -23,16 +23,16 @@ body {
   padding: 30px;
 }
 
-.upperPage {
+.upper-page {
   width: 100%;
 }
 
-#pureSkincare {
+#pure-skincare {
   color: white;
   display: inline-block;
 }
 
-#pureSkincare h1 {
+#pure-skincare h1 {
   color: white;
   letter-spacing: 6px;
   font-size: 1.6em;
@@ -57,14 +57,14 @@ body {
 
 /* right side navbar */
 
-#headerNavbar {
+#header-navbar {
   float: right;
   vertical-align: bottom;
   position: relative;
   top: 4px;
 }
 
-#mainNav {
+#main-nav {
   letter-spacing: 1.5px;
   font-weight: 200;
 }
@@ -78,7 +78,7 @@ nav ul {
   font-weight: 300;
 }
 
-#mainNav li {
+#main-nav li {
   list-style-type: none;
   float: left;
   display: list-item;
@@ -86,27 +86,27 @@ nav ul {
 }
 
 /* dropdown li */
-#mainNav li li {
+#main-nav li li {
   background-color: #93B4CF;
   color: rgb(32, 29, 29);
   padding: 10px;
   width: 150px;
 }
 
-#mainNav li li:hover {
+#main-nav li li:hover {
   background-color: #B8CDDF;
   color: black;
   font-weight: 400;
 }
 
-#mainNav ul li a {
+#main-nav ul li a {
   color: white;
   text-decoration: none;
   display: block;
   text-decoration: none;
 }
 
-#mainNav li a:hover {
+#main-nav li a:hover {
   color: white;
   cursor: pointer;
   color: rgb(236, 233, 233);

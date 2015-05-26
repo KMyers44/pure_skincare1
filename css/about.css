@@ -58,7 +58,7 @@ h2 {
     margin: 0 auto;
   }
 
-  #mainNav li {
+  #main-nav li {
     padding: 0 12px;
   }
 
@@ -77,12 +77,12 @@ h2 {
 
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .message_area {
+  .message-area {
     width: 68%;
     height: 440px;
   }
 
-  .message_area img {
+  .message-area img {
     height: 150px;
   }
 

@@ -1,6 +1,6 @@
 /* message area */
 
-.message_area {
+.message-area {
   height: 455px;
   width: 55%;
   background: rgb(247, 246, 246);
@@ -17,13 +17,13 @@
   display: inline-block;
 }
 
-.message_area h2 {
+.message-area h2 {
   text-align: center;
   padding-top: 35px;
   font-size: 2.9em;
 }
 
-.message_area p {
+.message-area p {
   margin: 0 0 10px;
   text-align: center;
   font-size: 1.5em;
@@ -33,7 +33,7 @@
   font-size: 18px;
 }
 
-.message_area_img {
+.message-area-img {
   opacity: 1;
   text-align: center;
   padding-top: 30px;
@@ -58,7 +58,7 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .message_area {
+  .message-area {
     width: 65%;
   }
 
@@ -66,20 +66,20 @@ img {
 
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .message_area {
+  .message-area {
     width: 75%;
     height: 440px;
   }
 
-  .message_area img {
+  .message-area img {
     height: 120px;
   }
 
-  .message_area h2 {
+  .message-area h2 {
     font-size: 2.1em;
   }
 
-  .message_area p {
+  .message-area p {
     font-size: 1.2em;
   }
 }

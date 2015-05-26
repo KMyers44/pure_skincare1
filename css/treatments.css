@@ -3,7 +3,7 @@
   background: rgb(240, 240, 240);
 }
 
-.upperPage {
+.upper-page {
   position: fixed;
   z-index: 5;
 }
@@ -12,7 +12,7 @@
   padding-top: 75px;
 }
 
-#sideNavbar {
+#side-navbar {
   text-align: left;
   padding-left: 10px;
   position: fixed;
@@ -26,12 +26,12 @@
   letter-spacing: 3px;
 }
 
-#sideTreatmentsList li {
+#side-treatments-list li {
   padding: 6px;
   font-size: 1.2em;
 }
 
-#sideTreatmentsList li a:hover {
+#side-treatments-list li a:hover {
   color: #23527c;
   margin-left: 5px;
   transition: .5s ease;
@@ -145,12 +145,12 @@ figure figcaption {
     display: none;
   }
 
-  .message_area {
+  .message-area {
     width: 68%;
     height: 440px;
   }
 
-  .message_area img {
+  .message-area img {
     height: 150px;
   }
 
