@@ -172,24 +172,7 @@ nav ul li:hover > ul {
   display: none;
 }
 
-@media (max-width: 768px) {
-  #main-nav {
-    display: none;
-  }
 
-  #header-image {
-    width: 50px;
-    height: 43px;
-    display: block;
-    position: absolute;
-    top: -30px;
-    right: -35px;
-  }
-
-  .container {
-    width: 80%;
-  }
-}
 /* NEW STUFF */
 
 
@@ -220,6 +203,10 @@ nav ul li:hover > ul {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+
   .message-area {
     width: 68%;
     height: 440px;
@@ -227,6 +214,22 @@ nav ul li:hover > ul {
 
   .message-area img {
     height: 150px;
+  }
+
+  #main-page {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #main-page p {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
+  #main-page img {
+    width: 70%;
   }
 }
 
