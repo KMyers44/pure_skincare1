@@ -16,22 +16,7 @@ $(document).ready(function() {
   });
 
 
-
-function showSpecials() {
-  messageArea.fadeIn('slow');
-  // css .upperPage --> position != fixed
-  $('.slogan').hide();
-  $('.main').hide();
-}
-
-function closeSpecials() {
-  messageArea.fadeOut('slow');
-  $('.slogan').fadeIn('slow');
-  $('.main').fadeIn('slow');
-}
-
-
-
+  // scroll on treatment items click
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
@@ -46,5 +31,26 @@ function closeSpecials() {
   });
 
 
+  function showSpecials() {
+    messageArea.fadeIn('slow');
+    $('.upper-page').css(
+      'position', 'relative'
+      );
+    $('.slogan').hide();
+    $('.main').hide();
+
+  }
+
+  function closeSpecials() {
+    messageArea.fadeOut('slow');
+    $('treatments', '.upper-page').css(
+      'position', 'fixed'
+      );
+    $('treatments', '.container').css(
+      'padding-top', '0'
+      );
+    $('.slogan').fadeIn('slow');
+    $('.main').fadeIn('slow');
+  }
 
 });
